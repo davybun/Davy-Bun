@@ -1,29 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:Times New Roman;
+}
 body{
     margin: 0;
     padding: 0;
-    background-color: #dde3e6c4;
+    background-color:#d4e4f3;
     font-family: sans-serif;
 }
-h1{
-    margin:0;
-    margin-left: 10px;
-    font-size: 25px;
-    text-transform: uppercase;
-}
 .container{
-    background-color:#5eaaa8;
-    width:100%;
-    height: 15vh;
-    padding: 5px;
+    margin: 0;
+    height: 10vh;
+    background:#5eaaa8;
     position: sticky;
     top:0;
     z-index: 99;
+    box-shadow:1px 2px 4px 2px;
 }
  nav ul{
-    margin: 0;
     display: flex;
     justify-content: flex-end;
-    text-align: center;
+    align-items: center;
     list-style: none;
 }
 ul li{
@@ -31,36 +29,48 @@ ul li{
 }
 ul li a{
     text-decoration: none;
-    color:black;
+    color:#fff;
     text-transform: uppercase;
     margin-top: 10px;
+}
+ul li:hover{
+    cursor: pointer; 
+    background-color: #ada6ad9c;
+
 }
  nav ul li:hover{
     cursor: pointer; 
     background-color: #d1b7d19c;
 
 }
+.active, .bav:hover{
+    color:#f5b85e;
+}
 h2{
     margin-left: 10px;
+    margin-top: 20px;
+    
 }
-.nav{
+.bg-col{
     width: 750px;
     height: auto;
     margin-top: 5%;
     display: flex;
     justify-content:space-between;
     margin-left: 200px;
-    background-color: rgba(175, 202, 236, 0.87);
+    background-color: rgba(192, 239, 253, 0.87);
+}
+.bg-col ul{
+    list-style: none;
+    margin-left: 10px;
 }
 .text{
     margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
-img{
-    width: 300px;
-    height: 350px;
-    margin: 30px;
-    background-color: rgb(235, 197, 197);
-    filter:grayscale(10%);
+.img{
+    width: 350px;
 }
 .footer{
     display:flex;
@@ -72,10 +82,10 @@ img{
     justify-content: space-around;
     list-style: none;
     padding: 10px;
-    
 }
 .footer-B a{
     padding: 5px;
+    color: #fff;
 }
 .footer-a{
     color: rgb(247, 243, 243);
@@ -83,16 +93,14 @@ img{
 }
 .footer-a p{
     font-size: 13px;
+    padding: 10px;
 }
+
 i{
     padding:10px;
     cursor: pointer;
     color:#fff;
 }
-i:hover{
-    cursor: pointer;
-}
-
 footer p{
     margin: 20px 20px;
 }
@@ -125,36 +133,36 @@ footer p{
             justify-content: flex-start;
         }
         .nav{
+            width: 100%;
+            background-color: rgb(186, 212, 212);
+            margin-left:5px;
+        }
+        .bg-col{
             display: inline;
             width: 100%;
         }
         .nav ul{
             font-size: 10px;
         }
-        .nav img{
-            width: 50%;
-            height: 20vh;
+        .bg-col img{
+            width: 95%;
+            height: 33vh;
+            margin-left:4px;
         }
         .text{
             width:100% ;
             font-size: 10px;
         }
+        
         .footer{
-            display: inline;
             width: 100%;
-    
+            display: inline;
+            
         }
-        .footer-a{
-            background-color: rgb(46, 45, 45);
+        footer{
+            background-color:  rgb(126, 125, 125);
         }
-        .footer-a p{
-            margin-left:10px ;
-            font-size: 10px;
-        }
-        .footer-B{
-            margin-top:20px ;
-            background-color: black;
-        }
-}
+    }
+
 
 
