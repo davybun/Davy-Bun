@@ -50,7 +50,8 @@ ul li:hover{
 
 }
 .active, .bav:hover{
-    color:#f5b85e;
+    color:#0c0700;
+    text-decoration: underline;
 }
 .body{
     height: 70vh;
