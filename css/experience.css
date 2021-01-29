@@ -166,3 +166,8 @@ i:hover{
         background-color:  rgb(126, 125, 125);
     }
 }
+@media(max-width:560px){
+    .bar2 img{
+        height: 120vh;
+    }
+}

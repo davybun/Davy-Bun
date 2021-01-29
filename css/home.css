@@ -261,5 +261,18 @@ i{
         display: none;
     }
 }
+@media(max-width:650px){
+    .body{
+        width: 100%;
+        height: 70vh;
+    }
+    .bar2{
+        height: 100vh;
+    }
+    .bar2 img{
+        width: 70%;
+        height: 50vh;
+    }
+}
 
 
